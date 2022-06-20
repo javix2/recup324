@@ -1,0 +1,96 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	/*background-image: url("CSS/academic.jpg");*/
+	background:#0580a4;
+	margin:0;
+
+}
+h2{
+	color:#eef858;
+	text-align:"center";
+	font-family: 'Roboto', sans-serif;
+
+}h4{
+	color:black;
+	background:#C70039 ;
+	
+	font-style:bold;
+	font-family: 'Roboto', sans-serif;
+}
+
+h3{
+	color:blue;
+	text-align:"center";
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.form__titulo{
+	background: #C70039 ;
+	padding:10px;
+	color:#fff;
+	text-align:center;
+	font-weight:100;
+	font-size:30px;
+	border-top-left-radius:7px;
+	border-top-right-radius:7px;
+}
+.form-register{
+	width:90%;
+	max-width:400px;
+	margin:auto;
+	background:#fcf8f1;
+	border-radius:7px;
+	padding-top:0%;
+}
+.contenedor-inputs{
+	padding:0px 30px;
+	display:flex;
+	
+	/*flex-wrap:wrap;
+	justify-content:space-between;
+*/
+}
+.contenedor-inputs2{
+	padding:10px 90px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+
+}
+.contenedor-inputs3{
+	padding:10px 50px;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+
+}
+input{
+	margin-bottom:10px;
+	/*padding:10px;*/
+}
+label{
+	display: inline-block;
+	width: 120px;
+	font-family: 'Roboto', sans-serif;
+}
+.input-48{
+	width:35%;
+	padding:0px;
+
+}
+.input-45{
+
+	width:70%;
+	padding:0px;
+
+}
+#tabla {
+  width: 100px;
+  margin: 0 auto;
+}
+table td {
+  background-color: #ee8;
+}
